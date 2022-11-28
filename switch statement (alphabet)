@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+    char c;
+    cout<<"enter the alphabet";
+    cin>>c;
+    
+    switch (c)
+    {
+        case'a':
+        cout<<"vovel"<<endl;
+        break;
+        case'e':
+        cout<<"vovel"<<endl;
+        break;
+        case'i':
+        cout<<"vovel"<<endl;
+        break;
+        case'o':
+        cout<<"vovel"<<endl;
+        break;
+        case'u':
+        cout<<"vovel"<<endl;
+        break;
+        
+        default:
+        cout<<"constant"<<endl;
+        break;
+    }
+
+    return 0;
+}
