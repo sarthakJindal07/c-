@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main() {
+   char button;
+   cout<<"input a character:";
+   cin>>button;
+   
+   switch (button)
+   {
+       case'a':
+       cout<<"hello"<<endl;
+       break;
+       case'b':
+       cout<<"jhkjj"<<endl;
+       break;
+       case'c':
+       cout<<"kkjk"<<endl;
+       break;
+       case'd':
+       cout<<"rtyy"<<endl;
+       break;
+       case'e':
+       cout<<"kjlkh"<<endl;
+       break;
+       
+       default:
+       cout<<"i am still learning more"<<endl;
+       break;
+   }
+    return 0;
+}
